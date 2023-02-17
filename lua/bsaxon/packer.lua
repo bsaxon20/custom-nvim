@@ -48,4 +48,10 @@ return require('packer').startup(function(use)
 }
 
 use ('xiyaowong/nvim-transparent')
+<<<<<<< HEAD
 end)
+=======
+use ('machakann/vim-highlightedyank')
+end)
+
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4

@@ -49,8 +49,13 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
+<<<<<<< HEAD
 local package_path_str = "C:\\Users\\bsaxon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\bsaxon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\bsaxon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\bsaxon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
 local install_cpath_pattern = "C:\\Users\\bsaxon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+=======
+local package_path_str = "/home/bsaxon/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/bsaxon/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/bsaxon/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/bsaxon/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/bsaxon/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,109 +81,199 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/LuaSnip",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-buffer"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/cmp-path",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["friendly-snippets"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   harpoon = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/harpoon",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/mason.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-transparent"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-transparent",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-treesitter"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/packer.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/wbthomason/packer.nvim"
   },
   playground = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\playground",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/playground",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\ne\0\0\3\0\6\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\nsetup\14rose-pine\frequire\0" },
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/rose-pine",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
+=======
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-highlightedyank"] = {
+    loaded = true,
+    path = "/home/bsaxon/.local/share/nvim/site/pack/packer/start/vim-highlightedyank",
+    url = "https://github.com/machakann/vim-highlightedyank"
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
   }
 }
 

@@ -31,3 +31,7 @@ vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
 
 end)
 lsp.setup()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 63be0db57f802282f623a32a8cdd8196cbb1b2c4
