@@ -50,5 +50,6 @@ return require('packer').startup(function(use)
 use ('xiyaowong/nvim-transparent')
 use ('machakann/vim-highlightedyank')
 use ('christoomey/vim-tmux-navigator')
+use ('tpope/vim-fugitive')
 end)
 
