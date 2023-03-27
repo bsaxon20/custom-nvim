@@ -37,14 +37,14 @@ vim.keymap.set("n", "<leader>g", ":vertical rightbelow Git<CR>")
 
 
 -- Change my windows/split commands in Neovim
-vim.keymap.set("n", "<C-h>", "<C-w>h")
-vim.keymap.set("n", "<C-j>", "<C-w>j")
-vim.keymap.set("n", "<C-k>", "<C-w>k")
-vim.keymap.set("n", "<C-l>", "<C-w>l")
+vim.keymap.set("n", "<C-left>", "<C-w>h")
+vim.keymap.set("n", "<C-down>", "<C-w>j")
+vim.keymap.set("n", "<C-up>", "<C-w>k")
+vim.keymap.set("n", "<C-right>", "<C-w>l")
 
 -- Create new splits in Neovim
 vim.keymap.set("n", "<C-n>", "<C-w>v")
-vim.keymap.set("n", "<C-h>", "<C-w>s")
+vim.keymap.set("n", "<C-s>", "<C-w>s")
 
 -- Closes a split in Neovim
 vim.keymap.set("n", "<C-q>", vim.cmd.q)
