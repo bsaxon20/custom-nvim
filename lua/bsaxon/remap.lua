@@ -31,3 +31,5 @@ vim.keymap.set("i", "'", "''<left>")
 vim.keymap.set("i", "[", '[]<left>')
 vim.keymap.set("i", '{', '{}<left>')
 vim.keymap.set("i", '(', '()<left>')
+
+vim.keymap.set("n", "<leader>g", ":vertical rightbelow Git<CR>")
