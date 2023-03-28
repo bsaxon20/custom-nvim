@@ -51,5 +51,6 @@ use ('xiyaowong/nvim-transparent')
 use ('machakann/vim-highlightedyank')
 use ('christoomey/vim-tmux-navigator')
 use ('tpope/vim-fugitive')
+use ('p00f/nvim-ts-rainbow')
 end)
 
