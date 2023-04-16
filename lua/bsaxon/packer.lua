@@ -53,5 +53,6 @@ use ('christoomey/vim-tmux-navigator')
 use ('tpope/vim-fugitive')
 use ('HiPhish/nvim-ts-rainbow2')
 use ('fedepujol/bracket-guides')
+use ('nvim-lualine/lualine.nvim')
 end)
 
