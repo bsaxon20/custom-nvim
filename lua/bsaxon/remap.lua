@@ -34,6 +34,7 @@ vim.keymap.set("i", '(', '()<left>')
 
 -- Creates a keymap to make my Vim Fugitve open vertically on the right
 vim.keymap.set("n", "<leader>g", ":vertical rightbelow Git<CR>")
+vim.keymap.set("n", "<leader>G", ":Gvdiffsplit!<CR>")
 
 
 -- Change my windows/split commands in Neovim
