@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- space pv takes me to Netrw
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+--vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- in visual mode J moves highlighted text down
 -- K move highlighted text up
@@ -48,3 +48,6 @@ vim.keymap.set("n", "<C-s>", "<C-w>s")
 
 -- Closes a split in Neovim
 vim.keymap.set("n", "<C-q>", vim.cmd.q)
+
+
+vim.keymap.set('n', '<leader>pv', ':NvimTreeToggle<CR>')
