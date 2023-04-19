@@ -54,5 +54,11 @@ use ('tpope/vim-fugitive')
 use ('HiPhish/nvim-ts-rainbow2')
 use ('fedepujol/bracket-guides')
 use ('nvim-lualine/lualine.nvim')
+use { 'justinhj/battery.nvim', requires = {{'kyazdani42/nvim-web-devicons'}, {'nvim-lua/plenary.nvim'}}}
+use({"Pocco81/auto-save.nvim",config = function()
+		 require("auto-save").setup {}
+	end,
+})
+use ('nvim-lualine/lualine.nvim')
 end)
 
