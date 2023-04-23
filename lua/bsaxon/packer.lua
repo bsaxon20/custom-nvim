@@ -60,5 +60,6 @@ use({"Pocco81/auto-save.nvim",config = function()
 	end,
 })
 use ('nvim-tree/nvim-tree.lua')
+use ('nvim-treesitter/nvim-treesitter-context')
 end)
 
