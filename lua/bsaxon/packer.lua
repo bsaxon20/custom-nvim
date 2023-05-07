@@ -39,6 +39,9 @@ return require('packer').startup(function(use)
   }
 }
 
+use ('mfussenegger/nvim-dap')
+use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+use ("jay-babu/mason-nvim-dap.nvim")
 use ('xiyaowong/nvim-transparent')
 use ('machakann/vim-highlightedyank')
 use ('christoomey/vim-tmux-navigator')
