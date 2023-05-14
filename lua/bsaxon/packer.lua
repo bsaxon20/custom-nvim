@@ -42,12 +42,13 @@ return require('packer').startup(function(use)
 use ('mfussenegger/nvim-dap')
 use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
 use ("jay-babu/mason-nvim-dap.nvim")
+use {'theHamsta/nvim-dap-virtual-text'}
+use {'nvim-telescope/telescope-dap.nvim'}
 use ('xiyaowong/nvim-transparent')
 use ('machakann/vim-highlightedyank')
 use ('christoomey/vim-tmux-navigator')
 use ('tpope/vim-fugitive')
 use ('HiPhish/nvim-ts-rainbow2')
-use ('fedepujol/bracket-guides')
 use ('nvim-lualine/lualine.nvim')
 use { 'justinhj/battery.nvim', requires = {{'kyazdani42/nvim-web-devicons'}, {'nvim-lua/plenary.nvim'}}}
 use({"Pocco81/auto-save.nvim",config = function()

@@ -1,9 +1,6 @@
 -- Maps leader key to space
 vim.g.mapleader = " "
 
--- space pv takes me to Netrw
---vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
 -- in visual mode J moves highlighted text down
 -- K move highlighted text up
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -52,3 +49,14 @@ vim.keymap.set("n", "<C-q>", vim.cmd.q)
 
 
 vim.keymap.set('n', '<leader>pv', ':NvimTreeToggle<CR>')
+
+--Debugging
+    vim.keymap.set("n", "<F5>", ":lua require('dap').continue()<CR>") 
+    vim.keymap.set("n", "<F10>",  ":lua require('dap').step_over()<CR>")
+    vim.keymap.set('n', '<F11>',  ":lua require('dap').step_into()<CR>")
+    vim.keymap.set('n', '<F12>', ":lua require('dap').step_out()<CR>")
+    vim.keymap.set('n', '<Leader>b', ":lua require('dap').toggle_breakpoint()<CR>")  
+    vim.keymap.set('n', '<Leader>B',  ":lua require('dap').set_breakpoint()<CR>") 
+    vim.keymap.set('n', '<Leader>lp',  ":lua require('dap').set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>") 
+    vim.keymap.set('n', '<Leader>dr',  ":lua require('dap').repl.open()<CR>") 
+    vim.keymap.set('n', '<Leader>dl',  ":lua require('dap').run_last()<CR>") 
