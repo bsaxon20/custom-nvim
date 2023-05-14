@@ -142,7 +142,11 @@ _G.packer_plugins = {
   },
   ["mason-nvim-dap.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "/Users/bensaxon/.local/share/nvim/site/pack/packer/start/mason-nvim-dap.nvim",
+=======
+    path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-nvim-dap.nvim",
+>>>>>>> 102fca16eaba01a6e30e2d5154d88fae3b23426d
     url = "https://github.com/jay-babu/mason-nvim-dap.nvim"
   },
   ["mason.nvim"] = {
@@ -162,11 +166,16 @@ _G.packer_plugins = {
   },
   ["nvim-dap"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "/Users/bensaxon/.local/share/nvim/site/pack/packer/start/nvim-dap",
+=======
+    path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+>>>>>>> 102fca16eaba01a6e30e2d5154d88fae3b23426d
     url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-dap-ui"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "/Users/bensaxon/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
   },
@@ -175,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/bensaxon/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
     url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
+=======
+    path = "C:\\Users\\bsaxon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+>>>>>>> 102fca16eaba01a6e30e2d5154d88fae3b23426d
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/bensaxon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
