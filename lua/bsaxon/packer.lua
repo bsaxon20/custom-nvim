@@ -55,8 +55,8 @@ use({"Pocco81/auto-save.nvim",config = function()
 		 require("auto-save").setup {}
 	end,
 })
-use ('nvim-tree/nvim-tree.lua')
 use ('nvim-treesitter/nvim-treesitter-context')
 use ('catppuccin/nvim')
+use ('prichrd/netrw.nvim')
 end)
 

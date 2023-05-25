@@ -48,7 +48,7 @@ vim.keymap.set("n", "<C-s>", "<C-w>s")
 vim.keymap.set("n", "<C-q>", vim.cmd.q)
 
 
-vim.keymap.set('n', '<leader>pv', ':NvimTreeToggle<CR>')
+vim.keymap.set('n', '<leader>pv', ':Ex<CR>')
 
 --Debugging
     vim.keymap.set("n", "<F5>", ":lua require('dap').continue()<CR>") 
