@@ -58,5 +58,6 @@ use({"Pocco81/auto-save.nvim",config = function()
 use ('nvim-treesitter/nvim-treesitter-context')
 use ('catppuccin/nvim')
 use ('prichrd/netrw.nvim')
+use ('folke/trouble.nvim')
 end)
 
